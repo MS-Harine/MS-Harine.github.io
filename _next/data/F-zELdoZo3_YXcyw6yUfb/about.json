@@ -1,0 +1,20 @@
+{
+  "pageProps": {
+    "authorDetails": {
+      "mdxSource": "var Component=(()=>{var m=Object.create;var a=Object.defineProperty;var u=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var g=Object.getPrototypeOf,l=Object.prototype.hasOwnProperty;var i=n=>a(n,\"__esModule\",{value:!0});var b=(n,t)=>()=>(t||n((t={exports:{}}).exports,t),t.exports),x=(n,t)=>{i(n);for(var e in t)a(n,e,{get:t[e],enumerable:!0})},M=(n,t,e)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let o of p(t))!l.call(n,o)&&o!==\"default\"&&a(n,o,{get:()=>t[o],enumerable:!(e=u(t,o))||e.enumerable});return n},f=n=>M(i(a(n!=null?m(g(n)):{},\"default\",n&&n.__esModule&&\"default\"in n?{get:()=>n.default,enumerable:!0}:{value:n,enumerable:!0})),n);var s=b((v,c)=>{c.exports=_jsx_runtime});var S={};x(S,{default:()=>h,frontmatter:()=>j});var r=f(s()),j={name:\"Minseok Song\",avatar:\"/static/images/avatar.jpg\",occupation:\"M.S. course on Brain-Computer Interface Lab\",company:\"Handong Global University\",email:\"Minseok.H.Song@gmail.com\",github:\"https://github.com/MS-Harine\"};function d(n={}){let{wrapper:t}=n.components||{};return t?(0,r.jsx)(t,Object.assign({},n,{children:(0,r.jsx)(e,{})})):e();function e(){let o=Object.assign({p:\"p\"},n.components);return(0,r.jsx)(o.p,{children:\"M.S. course on Brain-Computer Interface Lab in Handong Global University.\"})}}var h=d;return S;})();\n;return Component;",
+      "frontMatter": {
+        "readingTime": { "text": "1 min read", "minutes": 0.235, "time": 14100, "words": 47 },
+        "slug": ["default"],
+        "fileName": "default.md",
+        "name": "Minseok Song",
+        "avatar": "/static/images/avatar.jpg",
+        "occupation": "M.S. course on Brain-Computer Interface Lab",
+        "company": "Handong Global University",
+        "email": "Minseok.H.Song@gmail.com",
+        "github": "https://github.com/MS-Harine",
+        "date": null
+      }
+    }
+  },
+  "__N_SSG": true
+}
