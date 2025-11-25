@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>R&amp;D Tech</title>
   <subtitle>None</subtitle>
-  <updated>2025-11-25T23:28:53+09:00</updated>
+  <updated>2025-11-26T00:30:35+09:00</updated>
   <author>
     <name>Minseok Song</name>
     <uri>http://localhost:4000/</uri>
@@ -20,25 +20,25 @@
 
   
   <entry>
-    <title>Test</title>
-    <link href="http://localhost:4000/posts/test/" rel="alternate" type="text/html" title="Test" />
+    <title>Boost.Interprocess - Introduction</title>
+    <link href="http://localhost:4000/posts/Introduction/" rel="alternate" type="text/html" title="Boost.Interprocess - Introduction" />
     <published>2025-11-25T23:00:00+09:00</published>
   
     <updated>2025-11-25T23:00:00+09:00</updated>
   
-    <id>http://localhost:4000/posts/test/</id>
-    <content type="text/html" src="http://localhost:4000/posts/test/" />
+    <id>http://localhost:4000/posts/Introduction/</id>
+    <content type="text/html" src="http://localhost:4000/posts/Introduction/" />
     <author>
       <name>Minseok Song</name>
     </author>
 
   
     
-    <category term="Blog" />
+    <category term="Boost" />
     
   
 
-  <summary></summary>
+  <summary>개인 공부를 위해 번역한 내용으로, 정확하지 않을 수 있습니다.  Boost 1.86.0 버전을 기반으로 합니다.  자세한 정보는 공식 사이트를 참고해주세요   Introduction Boost.Interprocess는 보편적인 프로세스간 통신과 (interprocess communication) 동기화 메커니즘의 (synchronization mechanism) 사용을 단순화 하며, 아래 내용들을 제공합니다.     공유 메모리 (Shared memory)   메모리 맵 파일 (Memory-mapped file)   세마포어 (Semaphore), 뮤텍스 (Mutex), 조건변수 (Conditional variable), 업그레이드 가능한 뮤텍스 (Upgradable Mutex) 들을 공유 메모리와 ...</summary>
 
   </entry>
 

@@ -30,23 +30,23 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="Test" />
+<meta property="og:title" content="Boost.Interprocess - Introduction" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="None" />
-<meta property="og:description" content="None" />
-<link rel="canonical" href="http://localhost:4000/posts/test/" />
-<meta property="og:url" content="http://localhost:4000/posts/test/" />
+<meta name="description" content="개인 공부를 위해 번역한 내용으로, 정확하지 않을 수 있습니다. Boost 1.86.0 버전을 기반으로 합니다. 자세한 정보는 공식 사이트를 참고해주세요" />
+<meta property="og:description" content="개인 공부를 위해 번역한 내용으로, 정확하지 않을 수 있습니다. Boost 1.86.0 버전을 기반으로 합니다. 자세한 정보는 공식 사이트를 참고해주세요" />
+<link rel="canonical" href="http://localhost:4000/posts/Introduction/" />
+<meta property="og:url" content="http://localhost:4000/posts/Introduction/" />
 <meta property="og:site_name" content="R&amp;D Tech" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-11-25T23:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Test" />
+<meta property="twitter:title" content="Boost.Interprocess - Introduction" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-11-25T23:00:00+09:00","datePublished":"2025-11-25T23:00:00+09:00","description":"None","headline":"Test","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/test/"},"url":"http://localhost:4000/posts/test/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-11-25T23:00:00+09:00","datePublished":"2025-11-25T23:00:00+09:00","description":"개인 공부를 위해 번역한 내용으로, 정확하지 않을 수 있습니다. Boost 1.86.0 버전을 기반으로 합니다. 자세한 정보는 공식 사이트를 참고해주세요","headline":"Boost.Interprocess - Introduction","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/Introduction/"},"url":"http://localhost:4000/posts/Introduction/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>Test | R&D Tech
+  <title>Boost.Interprocess - Introduction | R&D Tech
   </title>
 
   <!--
@@ -207,9 +207,16 @@
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js"></script>
+
+  <script defer src="https://cdn.jsdelivr.net/combine/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/glightbox@3.3.0/dist/js/glightbox.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.18/dayjs.min.js,npm/dayjs@1.11.18/locale/en.js,npm/dayjs@1.11.18/plugin/relativeTime.js,npm/dayjs@1.11.18/plugin/localizedFormat.js,npm/tocbot@4.36.4/dist/tocbot.min.js"></script>
 
 
 
@@ -384,7 +391,7 @@
         
           
             
-              <span>Test</span>
+              <span>Boost.Interprocess - Introduction</span>
             
 
           
@@ -467,6 +474,38 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
@@ -497,9 +536,9 @@
 
 
 
-<article class="px-1" data-toc="false">
+<article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>Test</h1>
+    <h1 data-toc-skip>Boost.Interprocess - Introduction</h1>
     
 
     <div class="post-meta text-muted">
@@ -571,9 +610,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="0 words"
+  title="846 words"
 >
-  <em>1 min</em> read</span>
+  <em>4 min</em> read</span>
 
         </div>
       </div>
@@ -581,9 +620,84 @@
   </header>
 
   
+    <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
+      <span class="label text-truncate">Boost.Interprocess - Introduction</span>
+      <button type="button" class="toc-trigger btn me-1">
+        <i class="fa-solid fa-list-ul fa-fw"></i>
+      </button>
+    </div>
+
+    <button id="toc-solo-trigger" type="button" class="toc-trigger btn btn-outline-secondary btn-sm">
+      <span class="label ps-2 pe-1">Contents</span>
+      <i class="fa-solid fa-angle-right fa-fw"></i>
+    </button>
+
+    <dialog id="toc-popup" class="p-0">
+      <div class="header d-flex flex-row align-items-center justify-content-between">
+        <div class="label text-truncate py-2 ms-4">Boost.Interprocess - Introduction</div>
+        <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
+          <i class="fas fa-close"></i>
+        </button>
+      </div>
+      <div id="toc-popup-content" class="px-4 py-3 pb-4"></div>
+    </dialog>
+  
 
   <div class="content">
-    
+    <blockquote class="prompt-info">
+  <p>개인 공부를 위해 번역한 내용으로, 정확하지 않을 수 있습니다. <br />
+Boost 1.86.0 버전을 기반으로 합니다. <br />
+자세한 정보는 <a href="https://www.boost.org/doc/libs/1_86_0/doc/html/interprocess.html">공식 사이트</a>를 참고해주세요</p>
+</blockquote>
+
+<h1 id="introduction">Introduction</h1>
+<p><strong>Boost.Interprocess</strong>는 보편적인 프로세스간 통신과 <em>(interprocess communication)</em> 동기화 메커니즘의 <em>(synchronization mechanism)</em> 사용을 단순화 하며, 아래 내용들을 제공합니다.</p>
+
+<ul>
+  <li>공유 메모리 (Shared memory)</li>
+  <li>메모리 맵 파일 (Memory-mapped file)</li>
+  <li>세마포어 (Semaphore), 뮤텍스 (Mutex), 조건변수 (Conditional variable), 업그레이드 가능한 뮤텍스 (Upgradable Mutex) 들을 공유 메모리와 메모리 맵 파일에 배치할 수 있음</li>
+  <li>UNIX의 <code class="language-plaintext highlighter-rouge">sem_open</code>, Windows의 <code class="language-plaintext highlighter-rouge">CreateSemaphore</code> API와 같은 동기화 객체에 이름 설정</li>
+  <li>파일 잠금 (File locking)</li>
+  <li>Relative pointer</li>
+  <li>메세지 큐 (Message queue)</li>
+</ul>
+
+<p>또한 <strong>Boost.Interprocess</strong>는 공유 메모리 또는 메모리 맵 파일의 일부를 동적으로 할당하는 높은 수준의 interprocess 메커니즘을 제공합니다. (일반적으로, 고정된 크기의 메모리 세그먼트 일부를 할당합니다.)
+<strong>Boost.Interprocess</strong>는 이러한 메커니즘을 사용하여 STL과 같은 컨테이너를 포함한 C++ 객체들을 공유 메모리와 메모리 맵 파일에 구성(construct)할 수 있는 유용한 툴을 제공합니다.</p>
+
+<ul>
+  <li>공유 메모리 / 메모리 맵 파일에 이름이 있는 객체와 이름이 없는 객체(anonymous object)를 동적으로 생성</li>
+  <li>공유 메모리 / 메모리 맵 파일과 호환되는 STL같은 컨테이너</li>
+  <li>공유 메모리 / 메모리 맵 파일에 사용할 수 있는 다양한 메모리 할당 패턴이 구현된 STL같은 allocator (예: Pooling)</li>
+</ul>
+
+<h2 id="building-boostinterprocess"><span class="me-2">Building Boost.Interprocess</span><a href="#building-boostinterprocess" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p><strong>Boost.Interprocess</strong>는 header only 라이브러리이기 때문에 빌드할 필요가 없습니다.
+컴파일러 include path에 Boost header 디렉토리를 추가하세요.</p>
+
+<p><strong>Boost.Interprocess</strong>는 별도의 컴파일이 필요한 <strong><a href="https://www.boost.org/doc/libs/1_86_0/doc/html/date_time.html">Boost.DateTime</a></strong>에 의존합니다.
+하지만 <strong>Boost.Interprocess</strong>의 하위 집합(subset)은 별도 컴파일을 요구하지 않으므로, <code class="language-plaintext highlighter-rouge">BOOST_DATE_TIME_NO_LIB</code>를 define 함으로써 <strong>Boost.DateTime</strong>을 자동으로 링크하지 않도록 할 수 있습니다.</p>
+
+<p><strong>Boost.Interprocess</strong>는 POSIX 시스템에서 뮤텍스, 조건변수 클래스 등을 구현하기 위해 pthread system call을 사용합니다.
+어떤 운영체제에서는 이런 POSIX 호출을 분리된 라이브러리에서 구현되어 있기 때문에 컴파일러가 자동으로 링크하지 못하기도 합니다.
+예를 들어, 몇몇 리눅스 시스템에서는 POSIX pthread 함수들이 librt.a 라이브러리에 구현되어있기 때문에 <strong>Boost.Interprocess</strong>를 사용하기 위해서는 Executable 또는 Shared Library를 링킹할 때 추가해줘야 할 수도 있습니다.
+만약 pthread 함수에 관련된 링킹 에러가 발생하면 당신의 시스템의 문서를 확인해서 어느 라이브러리에 해당 함수가 구현되어있는지 확인해주세요.</p>
+
+<h2 id="tested-compilers"><span class="me-2">Tested compilers</span><a href="#tested-compilers" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<p><strong>Boost.Interprocess</strong>는 아래 플랫폼/컴파일러에서 테스트 되었습니다.</p>
+
+<ul>
+  <li>Visual C++ &gt;= 7.1</li>
+  <li>GCC &gt;= 4.1</li>
+</ul>
+
+<blockquote class="prompt-warning">
+  <p><strong>Warning</strong> <br />
+GCC &lt; 4.3 및 MSVC &lt; 9.0은 deprecated 되었고, 다음 버전에서 삭제될 예정입니다.</p>
+</blockquote>
 
   </div>
 
@@ -593,7 +707,7 @@
       <div class="post-meta mb-3">
         <i class="far fa-folder-open fa-fw me-1"></i>
         
-          <a href="/categories/blog/">Blog</a>
+          <a href="/categories/boost/">Boost</a>
       </div>
     
 
@@ -603,9 +717,14 @@
         <i class="fa fa-tags fa-fw me-1"></i>
         
           <a
-            href="/tags/test/"
+            href="/tags/c/"
             class="post-tag no-text-decoration"
-          >test</a>
+          >c++</a>
+        
+          <a
+            href="/tags/boost/"
+            class="post-tag no-text-decoration"
+          >boost</a>
         
       </div>
     
@@ -689,7 +808,7 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/test/">Test</a>
+          <a href="/posts/Introduction/">Boost.Interprocess - Introduction</a>
         </li>
       
     </ul>
@@ -722,6 +841,22 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -729,7 +864,10 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/test/">test</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/boost/">boost</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/c/">c++</a>
       
     </div>
   </section>
@@ -745,6 +883,12 @@
 
 
 
+
+  <div class="toc-border-cover z-3"></div>
+  <section id="toc-wrapper" class="invisible position-sticky ps-0 pe-4 pb-4">
+    <h2 class="panel-heading ps-3 pb-2 mb-0">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
@@ -887,6 +1031,22 @@
         
         
 
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
 
 
   <section>
@@ -894,7 +1054,10 @@
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/test/">test</a>
+        <a class="post-tag btn btn-outline-primary" href="/tags/boost/">boost</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/c/">c++</a>
       
     </div>
   </section>
