@@ -1,5 +1,5 @@
 ---
-title: "Boost.Interprocess - Introduction"
+title: "Boost.Interprocess - 서론 (Introduction)"
 date: 2025-11-25 23:00:00 +09
 categories: [Boost]
 tags: [c++, boost]
